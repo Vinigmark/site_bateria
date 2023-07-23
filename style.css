@@ -1,0 +1,88 @@
+h1,label{
+  color: #fafafa;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #000000;
+  color: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  z-index: 9999;
+}
+.scroll-to-top.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+p.text-center {
+  color: #fff;
+}
+
+.leadtext-center {
+  text-align: center;
+}
+
+.whats {
+  position: fixed;
+  bottom: 30px; 
+  right: 30px; 
+  width: 50px;
+  height: 50px;
+}
+
+.card-img-top{
+  width: 300px;
+  height: 300px;
+}
+
+.leadtext-center{
+  text-align: justify;
+}
+
+#figura, #figura2, #figura3, #figura4, #figura5, #figura6{
+  margin-top: 10px;
+  width: 373px;
+  height: 300px;
+}
+
+/*footer */
+footer {
+  background-color: #212529;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+footer a:hover {
+  color: #f8f9fa;
+}

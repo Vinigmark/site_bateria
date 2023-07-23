@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <title>VinyAscar - Baterias Automotivas</title>
+</head>
+
+<body>
+  
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.png" width="120px">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#produtos">Produtos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sobre">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contato">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <section id="home" class="bg-primary text-white text-center py-5">
+    <div class="container">
+      <h1 class="display-4">VinyAscar - Baterias Automotivas</h1>
+      <p class="lead">Bem-vindo ao site da VinyAscar, sua melhor opção em baterias automotivas.</p>
+    </div>
+  </section>
+
+  <a href="#home" class="scroll-to-top" id="scrollToTopBtn">
+    <i class="fa-solid fa-arrow-up" style="color: #ffffff;"></i>
+  </a>
+  <section id="produtos" class="py-5">
+    <div class="container" >
+      <h2 class="text-center mb-4">Nossos Produtos</h2>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="card mb-3">
+            <img src="img/advanced.png" alt="Produto 1" class="card-img-top" style="padding-top: 40px; margin: 0 auto;">
+            <div class="card-body">
+              <h5 class="card-title">Advanced</h5> 
+              <p class="card-text">Bateria Eletran Aadvanced.</p>
+                <h6 class="price">Preço: Sob consulta</h6>
+              <button id="lerMaisBtn" class="btn btn-primary">Ver Mais</button>
+              <img id="figura" src="img/modelo-advanced.png" style="display: none; width: 290px;">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card mb-3">
+            <img src="img/truck.png" alt="Produto 2" class="card-img-top" style="padding-top: 40px; margin: 0 auto;">
+            <div class="card-body">
+              <h5 class="card-title">Eletran Truck</h5>
+              <p class="card-text">Bateria Eletran Truck.</p>
+              <h6 class="price">Preço: Sob consulta</h6>
+              <button id="lerMaisBtn2" class="btn btn-primary">Ver Mais</button>
+              <img id="figura2" src="img/modelo-truck.png" style="display: none; width: 290px;">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card mb-3">
+            <img src="img/moura.png" alt="Produto 3" class="card-img-top" style="padding-top: 80px; margin: 0 auto;">
+            <div class="card-body">
+              <h5 class="card-title">Moura</h5>
+              <p class="card-text">Bateria Moura Truck.</p>
+              <h6 class="price">Preço: Sob consulta</h6>
+              <button id="lerMaisBtn3" class="btn btn-primary">Ver Mais</button>
+              <img id="figura3" src="img/modelo-advanced.png" style="display: none; width: 290px;">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card mb-3">
+            <img src="img/truck-moura.png" alt="Produto 4" class="card-img-top" style="padding-top: 40px; margin: 0 auto;">
+            <div class="card-body">
+              <h5 class="card-title">Moura Truck</h5>
+              <p class="card-text">Bateria Moura Truck.</p>
+              <h6 class="price">Preço: Sob consulta</h6>
+              <button id="lerMaisBtn4" class="btn btn-primary">Ver Mais</button>
+              <img id="figura4" src="img/modelo-truck.png" style="display: none; width: 290px;">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card mb-3">
+            <img src="img/zetta.png" alt="Produto 5" class="card-img-top" style="padding-top: 40px; margin: 0 auto;">
+            <div class="card-body">
+              <h5 class="card-title">Zetta</h5>
+              <p class="card-text">Bateria Zetta.</p>
+              <h6 class="price">Preço: Sob consulta</h6>
+              <button id="lerMaisBtn5" class="btn btn-primary">Ver Mais</button>
+              <img id="figura5" src="img/modelo-advanced.png" style="display: none; width: 290px;">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card mb-3">
+            <img src="img/zetta caminhao.png" alt="Produto 6" class="card-img-top" style="padding-top: 40px; margin: 0 auto;">
+            <div class="card-body">
+              <h5 class="card-title">Zetta Truck</h5>
+              <p class="card-text">Bateria Zetta Truck.</p>
+              <h6 class="price">Preço: Sob consulta</h6>
+              <button id="lerMaisBtn6" class="btn btn-primary">Ver Mais</button> 
+              <img id="figura6" src="img/modelo-truck.png" style="display: none; width: 290px;">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card mb-3">
+            <img src="img/fluido-protetor-para-radiador-9041.png" alt="Produto 6" class="card-img-top" style="width: 300px; margin: 0 auto;">
+            <div class="card-body">
+              <h5 class="card-title">Fluido protetor para radiador</h5>
+              <p class="card-text">Fluido protetor para radiador</p>
+              <h6 class="price">Preço: Sob consulta</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card mb-3">
+            <img src="img/água bi-desmineralizada 1010.png" alt="Produto 6" class="card-img-top" style=" width: 100px; margin: 0 auto;">
+            <div class="card-body">
+              <h5 class="card-title">Água bi-desmineralizada</h5>
+              <p class="card-text">Água bi-desmineralizada.</p>
+              <h6 class="price">Preço: Sob consulta</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Sobre a VinyAscar</h2>
+      <p class="leadtext-center">Nosso propósito é fornecer soluções de energias direcionadas e adaptadas para veículos automotivos, impulsionando a mobilidade elétrica e confiável para um futuro mais limpo e sustentável. Nosso objetivo é capacitar os motoristas a desfrutarem de uma experiência de condução eficiente, livre de emissões, e promover a transição para uma sociedade mais verde e consciente do meio ambiente. Com foco na inovação, qualidade e desempenho motivados, estamos comprometidos em oferecer baterias automotivas de última geração que atendem às crescentes demandas da indústria automotiva e superem as expectativas dos nossos clientes. Buscamos sustentar a mudança em direção à eletrificação, fornecendo soluções energéticas avançadas que beneficiam tanto os nossos clientes quanto o meio ambiente.
+
+      Nossa empresa foi fundada em 13 de junho de 2019 e, desde então, fornecemos baterias automotivas de alta qualidade a cada um de nossos clientes. Somos uma empresa familiar, cada um ajuda em diferentes setores, como entregas, estoque e financeiro. Trabalhamos em conjunto para garantir um serviço eficiente e flexível, sempre buscando superar as expectativas dos nossos clientes.
+      
+      Estamos entusiasmados em fazer parte da jornada rumo a um futuro sustentável, oferecendo soluções de energia, esperando entusiasmados para um mundo com menos emissões e impacto ambiental. Valorizamos a confiança depositada em nós pelos nossos clientes e estamos comprometidos em fornecer produtos de alta qualidade que impulsionem a mobilidade elétrica e ajudem a construir um futuro mais sustentável para todos</p>
+    </div>
+  </section>
+
+  <section id="contato" class="py-5" style="background-color: #0d6edf;">
+    <div class="container">
+      <h2 class="text-center mb-4">Entre em Contato</h2>
+      <p class="text-center">Para mais informações ou solicitar um orçamento, entre em contato conosco:</p>
+      <form action="https://formsubmit.co/vinyascar@gmail.com" method="POST">
+        <div class="mb-3">
+          <label for="nome" class="form-label">Nome:</label>
+          <input type="text" class="form-control" id="nome" name="nome" placeholder="Escreva seu nome..." required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">E-mail:</label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="Escreva seu email..." required>
+        </div>
+        <div class="mb-3">
+          <label for="endereco" class="form-label">Endereço:</label>
+          <input type="text" class="form-control" id="endereco" name="endereco" placeholder="Escreva seu endereço..." required>
+        </div>
+        <div class="mb-3">
+          <label for="mensagem" class="form-label">Mensagem:</label>
+          <textarea class="form-control" id="mensagem" name="mensagem" placeholder="Escreva sua mensagem..." required></textarea>
+        </div>
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://vinyascar.netlify.app/">
+        <button type="submit" class="btn btn-dark">Enviar</button>
+      </form>
+    </div>
+  </section>
+  <div class="whats">
+    <a href="https://wa.me/5511962700164" target="_blank">
+    <img src="img/whats.png" width="75" alt="Fale Conosco pelo whatsapp" title="Fale Conosco pelo whatsapp">
+    </a>
+  </div>
+
+  <footer class="bg-dark text-white py-3">
+    <div class="container">
+      <p class="text-center m-0">&copy; 2023 VinyAscar - Todos os direitos reservados.</p> <br>
+      <p class="text-center m-0" style="font-size: 19px;">Email:<a href="mailto:vinyascar@gmail.com">vinyascar@gmail.com</a>| Telefone:<a href="tel:+5511962700164">(11) 96270-0164</a>|<a href="tel:+551195750-5175">(11) 95750-5175</a></p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+  
+  <!-- Modal -->
+<div class="modal fade" id="modalImagem" tabindex="-1" aria-labelledby="modalImagemLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalImagemLabel">Imagem Ampliada</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+      </div>
+      <div class="modal-body">
+        <img id="imagemModal" src="" alt="Imagem Ampliada" style="width: 100%;">
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
